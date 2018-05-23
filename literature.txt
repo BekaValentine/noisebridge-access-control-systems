@@ -1,0 +1,25 @@
+# This file collects up links to documents that may be relevant to this project.
+
+
+
+== Public Key Certificates / Key Signing / etc.
+
+https://en.wikipedia.org/wiki/Public_key_certificate
+
+
+
+== Type Theoretic Approaches
+
+Stateful Authorization Logic – Proof Theory and a Case Study. http://www.cs.cmu.edu/~fp/papers/jcs12.pdf
+
+A Proof-Carrying File System with Revocable and Use-Once Certificates. http://www.cs.cmu.edu/~fp/papers/stm11.pdf
+
+Reasoning about the Consequences of Authorization Policies in a Linear Epistemic Logic. http://www.cs.cmu.edu/~fp/papers/fcs09.pdf
+
+An Authorization Logic with Explicit Time. http://www.cs.cmu.edu/~fp/papers/csf08.pdf
+
+Non-Interference in Constructive Authorization Logic. http://www.cs.cmu.edu/~fp/papers/csfw06.pdf
+
+Consumable Credentials in Logic-Based Access-Control Systems. http://www.cs.cmu.edu/~fp/papers/ndss07.pdf
+
+A Logical Representation of Common Rules for Controlling Access to Classified Information. http://www.cs.cmu.edu/~fp/papers/CMU-CS-09-139.pdf
