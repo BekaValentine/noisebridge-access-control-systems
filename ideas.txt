@@ -1,0 +1,8 @@
+- Getting RFID access requires adding contact info of some sort (Nym, Email/Phone/whatever)
+- Anyone with access level X can grant access at all levels beneath X
+- Anyone with access level X can revoke access at all levels beneath X
+- Any group of N people at access level X can grant access at level X (and N must be maintained at all times for access to exist)
+- QUESTION: How to revoke same level???
+- Access granting is a DAG, so we cannot get un-revocable access loops, and we can cut off entire branches of access that stem from malicious individuals
+- Expiring tokens causes the expiration of the entire branch below them (except for nodes that are pointed to by multiple people???)
+- The entire access grand DAG is viewable in the space at all times, and all changes are logged publicly on slack and on the system that shows the DAG
