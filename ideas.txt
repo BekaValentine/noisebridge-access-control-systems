@@ -6,3 +6,5 @@
 - Access granting is a DAG, so we cannot get un-revocable access loops, and we can cut off entire branches of access that stem from malicious individuals
 - Expiring tokens causes the expiration of the entire branch below them (except for nodes that are pointed to by multiple people???)
 - The entire access grand DAG is viewable in the space at all times, and all changes are logged publicly on slack and on the system that shows the DAG
+
+* NOTE Access levels here are the current NB levels of Daytime Access and 24 Hour Access, and are intended to be time-period-relevant levels of access to the RFID space, and not other systems. For more general access control, these levels of access are whatever they are in that context.
