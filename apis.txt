@@ -1,0 +1,27 @@
+=============
+Possible APIs
+=============
+
+just listing them for now
+
+- Twitter
+- Facebook
+- Instagram
+- Trello
+- Patreon
+- Meet-up
+
+
+Thoughts
+________
+
+- Start a folder (apis?) with samples of basic functional code (e.g. like the meet-up I pushed to NB)
+- Determine which functions needed across all APIs
+    - Getting and revoking API Tokens
+    - Integrating API token management with access control scheme
+    - Basic API
+      - connections / sessoins
+      - basic queries
+      - what will be posted
+      - how to post it
+      - partitioning and permissioning each function to suit noisebridge access controls

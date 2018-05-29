@@ -5,6 +5,21 @@
 - QUESTION: How to revoke same level???
 - Access granting is a DAG, so we cannot get un-revocable access loops, and we can cut off entire branches of access that stem from malicious individuals
 - Expiring tokens causes the expiration of the entire branch below them (except for nodes that are pointed to by multiple people???)
+  -  How about the expired person can expire without their children auto-expire.  
+    - Auto-expire is really a revoke anyways.  Those people are still useful.  
+    - Perhaps a will-ful keeping (notiifcation to keep on parent expire) or 
+    - ability to expire all but not by default (notificatoin of expiry so person can act if desired).  
+  - However, if person n is revoked, all children revoked, as revoking is a Trust issue.
 - The entire access grand DAG is viewable in the space at all times, and all changes are logged publicly on slack and on the system that shows the DAG
 
 * NOTE Access levels here are the current NB levels of Daytime Access and 24 Hour Access, and are intended to be time-period-relevant levels of access to the RFID space, and not other systems. For more general access control, these levels of access are whatever they are in that context.
+
+
+- Rings of trust may also be interesting
+  - DAG but allow one and only one cycle with a minimum of Nr people in the ring.
+  - This could be useful for critical emails, for example.
+    - Treasurer recovery -> Secretary, Secretary recovery -> President, etc.
+  - Not perfect or even great, but adding obstacles to make attacks more difficult / costly is interesting.
+
+- Absolutely zero key people dependencies.  
+  - This is a risk bigger than any specific account.
